@@ -30,7 +30,7 @@ endif
 GO_BUILD_FLAGS = -tags "json1 $(BTRFS_BUILD_TAG) $(LIBDM_BUILD_TAG) $(LIBSUBID_BUILD_TAG)"
 GO_BUILD_BINDIR :=./bin
 
-all: tidy test-unit build
+all: tidy build
 .PHONY: all
 
 cross-build-linux-amd64:
