@@ -34,7 +34,7 @@ type releaseVersion struct {
 	minor int
 }
 
-const OCPReleaseRepo = "quay.io/openshift-release-dev/ocp-release"
+const OCPReleaseRepo = "registry.ci.openshift.org/ocp"
 
 func NewReleasesCommand(f kcmdutil.Factory, ro *cli.RootOptions) *cobra.Command {
 	o := ReleasesOptions{}
