@@ -2,7 +2,9 @@
 # docker run -it --rm --privileged -v ${PWD}:/build:z local/go-toolset
 #################################################################################
 # Builder Image
-FROM registry.access.redhat.com/ubi9/ubi
+FROM registry.access.redhat.com/ubi8/ubi
+# For RHEL9
+# FROM registry.access.redhat.com/ubi9/ubi
 
 #################################################################################
 # DNF Package Install List
