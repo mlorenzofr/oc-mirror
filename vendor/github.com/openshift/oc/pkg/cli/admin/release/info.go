@@ -216,7 +216,7 @@ type versionGraph struct {
 	Nodes []versionNode `json:"nodes"`
 }
 
-const defaultGraphURL = "https://api.openshift.com/api/upgrades_info/v1/graph"
+const defaultGraphURL = "https://amd64.ocp.releases.ci.openshift.org/graph"
 
 // replaceStableSemanticArgs attempts to look up known major versions in existing public stable
 // channels.

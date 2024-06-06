@@ -24,7 +24,7 @@ const (
 	// Timeout when calling upstream Cincinnati stack.
 	getUpdatesTimeout = time.Minute * 60
 	// UpdateURL is the Cincinnati endpoint for the OpenShift platform.
-	UpdateURL = "https://api.openshift.com/api/upgrades_info/v1/graph"
+	UpdateURL = "https://amd64.ocp.releases.ci.openshift.org/graph"
 	// OkdUpdateURL is the Cincinnati endpoint for the OKD platform.
 	OkdUpdateURL                = "https://origin-release.ci.openshift.org/graph"
 	extendedUpdateSupportPrefix = "eus-"
